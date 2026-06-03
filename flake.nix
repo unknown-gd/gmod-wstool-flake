@@ -35,7 +35,7 @@
           zstd
           gnutar
           autoPatchelfHook
-          makeWrapper # <--- Tool needed to create the environment wrapper
+          makeWrapper
         ];
 
         buildInputs = [
