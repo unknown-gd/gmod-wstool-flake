@@ -19,10 +19,10 @@
       runtimeLibs = with pkgs; [
         wayland
         libxkbcommon
-        xorg.libX11
-        xorg.libXcursor
-        xorg.libXrandr
-        xorg.libXi
+        libX11
+        libXcursor
+        libXrandr
+        libXi
         vulkan-loader
       ];
     in
